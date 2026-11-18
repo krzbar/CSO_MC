@@ -1,4 +1,4 @@
-## These are the R scripts and numerical results accompanying 
+## These are the R scripts accompanying 
 ## Krzysztof Bartoszek
 ## Cubic stochastic operators for Markov chains and mappings of distributions
 
