@@ -64,7 +64,7 @@
 ##
 ##     The same map may appear in several entries (different coordinates
 ##     or slice sets); this is how a non-symmetric system is covered.
-##     Element names (e.g. cubic_x4_nine) are only used in the log.
+##     Element names are only used in the log.
 ## =====================================================================
 
 ## --- Tree derived distance CSO examples 1,2 ---------------------------
