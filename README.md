@@ -1,8 +1,11 @@
 # CSO_MC
 
-These are the R scripts and numerical results accompanying 
+These are the R scripts accompanying 
 Krzysztof Bartoszek
 Cubic stochastic operators for Markov chains and mappings of distributions
+
+They generate Figs. 1 and 3-14, that numerically illustrate the limit distribution of 
+considered cubic stochastic operators. 
 
 The script CSO_3D_Fig1.R is for Fig. 1. To recreate it the user should in R run
 set.seed(1)
@@ -15,4 +18,8 @@ These were manually entered. To recreate the graphics (both pdfs and pngs) for F
 in the command line:
 
 Rscript CSO_4D_basins_run_batch.R CSO_4D_systems.R 
+
+Graphics are generated in two versions: with 2x2 or 3x3 panels. For the manuscript the 3x3 panels was taken.
+There is no need to make more plots for x4>0.5, as Thm. 7.1 gives that in this case the limit will be (0,0,0,1).
+The case x4=0.6 is provided for illustrative purposes. 
 
